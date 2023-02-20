@@ -29,8 +29,17 @@ This "How to" will cover macOS specifically, it may vary for other systems.
 
 Clone this repo locally to a folder of your choice
 
+```
 git clone git@github.com:svetoslav-org/packer-nginx-tutorial.git
+```
+
 Go inside the newly created folder of the repo
 ```
 cd packer-nginx-tutorial
+```
+
+Then run the following command to deploy the image to AWS
+
+```
+packer build aws-ubuntu.pkr.hcl
 ```
